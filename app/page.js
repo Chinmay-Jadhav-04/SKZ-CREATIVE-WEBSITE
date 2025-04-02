@@ -3,6 +3,7 @@ import Contact from "@/components/main/Contact";
 import Hero from "@/components/main/Hero";
 import Projects from "@/components/main/Projects";
 import Services from "@/components/main/Services";
+import TiltCard from "@/components/main/TiltCard";
 
 export default function Home() {
   return (

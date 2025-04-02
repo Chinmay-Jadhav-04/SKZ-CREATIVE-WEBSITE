@@ -3,10 +3,10 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 
-const servicesData = [
+const servicesData =  [
   {
     id: 1,
-    title: "Video Editing Services 🎬",
+    title: "Video Editing Services", 
     services: [
       {
         name: "Short & Long-form Video Editing",
@@ -21,10 +21,6 @@ const servicesData = [
         description: "Add animated elements, like text overlays, transitions, or logo animations."
       },
       {
-        name: "Color Grading",
-        description: "Enhance video quality with professional color correction and grading."
-      },
-      {
         name: "Audio Editing",
         description: "Clean up audio, sync soundtracks, or add sound effects."
       }
@@ -32,7 +28,7 @@ const servicesData = [
   },
   {
     id: 2,
-    title: "Graphic Design Services 🎨",
+    title: "Graphic Design Services",
     services: [
       {
         name: "Logo & Branding Design",
@@ -47,8 +43,8 @@ const servicesData = [
         description: "Create eye-catching event posters, digital flyers, and advertisements."
       },
       {
-        name: "UI/UX Design",
-        description: "Design user-friendly and visually appealing interfaces for websites or apps."
+        name: "Thumbnails Designs",
+        description: "Eye-catching and custom-designed thumbnails that elevate your brand and boost engagement."
       },
       {
         name: "Packaging Design",
@@ -58,15 +54,19 @@ const servicesData = [
   },
   {
     id: 3,
-    title: "Social Media Services 📲",
+    title: "Social Media Services",
     services: [
       {
         name: "Social Media Content Creation",
         description: "Plan and create engaging posts, stories, and reels."
       },
       {
-        name: "Content Calendar Management",
-        description: "Schedule and manage posts to ensure consistent online presence."
+        name: "Influencer Marketing",
+        description: "Empowering influencers with compelling content and strategic marketing to maximize engagement and brand impact."
+      },
+      {
+        name: "Creator Collaboration",
+        description: "Collaborating with creators to produce innovative, high-quality content that captivates audiences and elevates brands."
       },
       {
         name: "Growth Strategies",
@@ -80,7 +80,7 @@ const servicesData = [
   },
   {
     id: 4,
-    title: "Custom Design & Video Solutions 🛠",
+    title: "Custom Design & Video Solutions",
     services: [
       {
         name: "Brand Introduction Videos",
@@ -89,10 +89,6 @@ const servicesData = [
       {
         name: "Infographics & Data Visualizations",
         description: "Transform complex data into visually appealing and easy-to-understand graphics."
-      },
-      {
-        name: "Corporate Presentations & Pitch Decks",
-        description: "Design professional presentations for business meetings and investor pitches."
       },
       {
         name: "Event Coverage Video Editing",
@@ -106,7 +102,7 @@ const servicesData = [
   },
   {
     id: 5,
-    title: "Additional Add-Ons ✨",
+    title: "Additional Add-Ons",
     services: [
       {
         name: "Revisions Policy",

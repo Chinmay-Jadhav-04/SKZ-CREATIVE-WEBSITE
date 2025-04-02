@@ -55,7 +55,7 @@ const Footer = () => {
         <div className="md:w-1/3 mb-8 md:mb-0">
           <h1 className="text-3xl font-bold mb-4 gradient-text relative z-[42]">SKZ-CREATIVE</h1>
           <p className="text-gray-300 text-sm leading-relaxed relative z-[42]">
-            Empowering businesses to build and shape their future with innovative development solutions.
+          SKZ Creative – Crafting visually stunning videos, graphics, and social media content to elevate your brand’s digital presence.
           </p>
         </div>
 

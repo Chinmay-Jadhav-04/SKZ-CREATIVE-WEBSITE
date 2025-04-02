@@ -3,7 +3,7 @@ import { Inter, Cedarville_Cursive } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/main/Header";
 import Footer from "@/components/main/Footer";
-import '@/utils/emailjs';
+// import '@/utils/emailjs';
 
 const inter = Inter({ subsets: ["latin"] });
 const cedarville = Cedarville_Cursive({ 
@@ -48,6 +48,7 @@ export default function RootLayout({
     </html>
   );
 }
+
 
 
 

@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { slideInFromLeft, slideInFromTop } from '@/utils/motion';
 import { SparklesIcon } from '@heroicons/react/20/solid';
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline';
+import { Clapperboard, Palette, PencilRuler, Smartphone } from 'lucide-react';
 
 const ServiceCard = ({ title, icon, description, delay }) => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -75,25 +76,25 @@ const About = () => {
   const services = [
     {
       title: "Professional Video Editing",
-      icon: "🎬",
+      icon: <Clapperboard className="text-white h-6 w-6" />,
       description: "Transform your raw footage into stunning videos! From short reels to long-form content, we create dynamic and engaging visuals tailored to your brand.",
       delay: 0.2
     },
     {
       title: "Creative Graphic Design",
-      icon: "🎨",
+      icon: <Palette className="text-white h-6 w-6" />,
       description: "Custom designs to make your brand stand out. From logos to marketing banners, we deliver visually captivating graphics.",
       delay: 0.4
     },
     {
       title: "Social Media Content Creation",
-      icon: "📲",
+      icon: <Smartphone className="text-white h-6 w-6" />,
       description: "We help you manage and create consistent, eye-catching social media content to boost your online presence.",
       delay: 0.6
     },
     {
       title: "Custom Design Solutions",
-      icon: "🛠",
+      icon: <PencilRuler className="text-white h-6 w-6" />,
       description: "Need something unique? We offer tailored design and video solutions to meet your specific business needs.",
       delay: 0.8
     }

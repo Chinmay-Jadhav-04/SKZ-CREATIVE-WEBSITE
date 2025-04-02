@@ -81,73 +81,41 @@ export default function Projects() {
       id: 1,
       title: "YouTube Video Editing",
       description: "Full-length YouTube videos featuring engaging transitions, text overlays, and professional color grading. Includes before-and-after comparisons showcasing raw footage versus final edited product.",
-      imageUrl: "/video-editing.jpg", // Add appropriate image
+      imageUrl: "/video-editing.jpg",
       technologies: ["Premiere Pro", "After Effects", "Color Grading", "Motion Graphics"],
-      liveUrl: "https://example.com/youtube-edit",
-      githubUrl: null
+      liveUrl: "https://example.com/youtube-edit"
     },
     {
       id: 2,
       title: "Social Media Reels",
       description: "Fast-paced, engaging reels for Instagram and TikTok, perfect for fashion brands, fitness influencers, and travel vloggers. Featuring trending music and effects.",
-      imageUrl: "/reels.jpg", // Add appropriate image
+      imageUrl: "/reels.jpg",
       technologies: ["Final Cut Pro", "Instagram", "TikTok", "Sound Design"],
-      liveUrl: "https://example.com/reels",
-      githubUrl: null
+      liveUrl: "https://example.com/reels"
     },
     {
       id: 3,
-      title: "Logo & Brand Identity",
-      description: "Professional logo and brand identity designs including color palettes, logo mockups, and complete stationery designs (business cards, letterheads).",
-      imageUrl: "/brand-identity.jpg", // Add appropriate image
-      technologies: ["Illustrator", "Photoshop", "Brand Design", "Typography"],
-      liveUrl: "https://example.com/brand-identity",
-      githubUrl: null
+      title: "Event Coverage",
+      description: "Professional event highlight videos featuring weddings, concerts, and corporate events. Including drone shots, crowd footage, and cinematic effects.",
+      imageUrl: "/event-coverage.jpg",
+      technologies: ["DaVinci Resolve", "Drone Photography", "Live Events", "Audio Mixing"],
+      liveUrl: "https://example.com/events"
     },
     {
       id: 4,
-      title: "Social Media Content",
-      description: "Engaging social media content including carousel posts, stories, and infographics for Instagram and LinkedIn, with consistent brand messaging.",
-      imageUrl: "/social-content.jpg", // Add appropriate image
-      technologies: ["Canva", "Photoshop", "Social Media", "Content Strategy"],
-      liveUrl: "https://example.com/social-content",
-      
+      title: "Content Strategy",
+      description: "Comprehensive 30-day social media content plans including post ideas, captions, hashtags, and posting schedules with analytics reporting.",
+      imageUrl: "/content-strategy.jpg",
+      technologies: ["Analytics", "Content Planning", "Social Strategy", "Marketing"],
+      liveUrl: "https://example.com/strategy"
     },
     {
       id: 5,
-      title: "Event Coverage",
-      description: "Professional event highlight videos featuring weddings, concerts, and corporate events. Including drone shots, crowd footage, and cinematic effects.",
-      imageUrl: "/event-coverage.jpg", // Add appropriate image
-      technologies: ["DaVinci Resolve", "Drone Photography", "Live Events", "Audio Mixing"],
-      liveUrl: "https://example.com/events",
-      
-    },
-    {
-      id: 6,
-      title: "UI/UX Design",
-      description: "Sleek website and mobile app mockups for e-commerce stores and service-based businesses, focusing on user experience and modern design principles.",
-      imageUrl: "/ui-design.jpg", // Add appropriate image
-      technologies: ["Figma", "Adobe XD", "Prototyping", "Web Design"],
-      liveUrl: "https://example.com/ui-design",
-      
-    },
-    {
-      id: 7,
-      title: "Content Strategy",
-      description: "Comprehensive 30-day social media content plans including post ideas, captions, hashtags, and posting schedules with analytics reporting.",
-      imageUrl: "/content-strategy.jpg", // Add appropriate image
-      technologies: ["Analytics", "Content Planning", "Social Strategy", "Marketing"],
-      liveUrl: "https://example.com/strategy",
-      
-    },
-    {
-      id: 8,
-      title: "Custom Illustrations",
-      description: "Bespoke digital illustrations, mascots, and artwork created according to client specifications and brand guidelines.",
-      imageUrl: "/illustrations.jpg", // Add appropriate image
-      technologies: ["Procreate", "Illustrator", "Digital Art", "Character Design"],
-      liveUrl: "https://example.com/illustrations",
-      
+      title: "Graphics Designing",
+      description: "Professional logo and brand identity designs including color palettes, logo mockups, and complete stationery designs (business cards, letterheads).",
+      imageUrl: "/brand-identity.jpg",
+      technologies: ["Illustrator", "Photoshop", "Brand Design", "Typography"],
+      liveUrl: "https://example.com/brand-identity"
     }
   ];
 
