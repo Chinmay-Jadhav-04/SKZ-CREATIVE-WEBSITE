@@ -72,9 +72,9 @@ const Contact = () => {
   return (
     <>
       {/* Top Border Line */}
-      <div className="w-full border-t border-gray-700 mb-8" />
+      <div className="w-full border-t border-gray-700 mb-4" />
 
-      <div id="contact" className="flex flex-col items-center justify-center min-h-screen w-full px-4 md:px-20 py-20">
+      <div id="contact" className="flex flex-col items-center justify-center min-h-screen w-full px-4 md:px-20 py-10">
         <Toaster />
         
         {/* Header */}
@@ -184,7 +184,7 @@ const Contact = () => {
       </div>
 
       {/* Bottom Border Line */}
-      <div className="w-full border-t border-gray-700 mt-8" />
+      <div className="w-full border-t border-gray-700 mt-4" />
     </>
   );
 };
